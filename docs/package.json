@@ -1,0 +1,34 @@
+{
+  "name": "@ui-el-com/docs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./lib/ui-el-com.umd.js",
+  "module": "./lib/ui-el-com.es.js",
+  "private": false,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.2.2",
+    "@vueuse/core": "^10.7.0",
+    "chalk": "^5.3.0",
+    "consola": "^3.2.3",
+    "element-plus": "^2.4.4",
+    "escape-html": "^1.0.3",
+    "markdown-it": "^14.0.0",
+    "markdown-it-container": "^4.0.0",
+    "normalize.css": "^8.0.1",
+    "prismjs": "^1.29.0",
+    "ui-el-com": "workspace:^",
+    "vitepress": "1.0.0-rc.32"
+  }
+}

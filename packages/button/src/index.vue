@@ -1,0 +1,27 @@
+<template>
+  <el-button v-bind="$attrs" @click="handleClick">
+    <slot />
+  </el-button>
+</template>
+<script setup lang="ts">
+import { ref } from 'vue';
+const props = defineProps({
+  time: {
+    type: Number,
+    default: 1000,
+  },
+});
+// 抛出事件
+const emits = defineEmits(['click']);
+const record = ref(0);
+const handleClick = () => {
+  console.log(props.time);
+
+  const newTime = new Date();
+  if (newTime.getTime() - record.value > props.time) {
+    console.log('点击');
+    emits('click');
+  }
+  record.value = new Date().getTime();
+};
+</script>
