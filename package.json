@@ -24,9 +24,11 @@
 		"docs:build": "pnpm run -C docs build",
 		"docs:preview": "pnpm run -C docs serve",
 		"docs:deploy": "pnpm run docs:build && gh-pages -d docs/.vitepress/dist",
+		"deploy": "deploy.sh"
 	},
 	"devDependencies": {
 		"element-plus": "^2.4.4",
+		"gh-pages": "^6.1.0",
 		"sass": "^1.69.5"
 	},
 	"dependencies": {

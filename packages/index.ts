@@ -11,8 +11,6 @@ const components: {
 }; // components
 
 const installComponents: any = (app: App) => {
-  console.log('dfdf');
-
   app.use(ElementPlus);
 
   for (const key in components) {
