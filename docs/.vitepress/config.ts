@@ -29,13 +29,15 @@ export default defineConfig({
   title: 'ul-el-com',
   description: 'DP Vue3企业级中后台组件库',
   lang: 'cn-ZH',
-  base: '/ul-el-com',
+  base: '/ui-el-com',
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.jpg',
     siteTitle: 'ul-el-com',
     outline: 3,
-    socialLinks: [{ icon: 'github', link: 'https://github.com/pcyking/dp-ui' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/pcyking/ui-el-com.git' },
+    ],
     nav,
     sidebar,
   },

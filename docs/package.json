@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./lib/ui-el-com.umd.js",
-  "module": "./lib/ui-el-com.es.js",
   "private": false,
   "scripts": {
     "dev": "vitepress dev",

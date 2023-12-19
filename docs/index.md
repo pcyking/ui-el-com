@@ -17,7 +17,7 @@ hero:
       link: /guide/
     - theme: alt
       text: 组件
-      link: /components/DpSelect/base.md
+      link: /components/DpButton/base.md
 features:
   - icon: 🔨
     title: 功能/特点 1
